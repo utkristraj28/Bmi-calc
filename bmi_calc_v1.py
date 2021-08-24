@@ -1,3 +1,5 @@
+name = input("Please Enter Your Name: ")
+print(f"Hello {name}, How are you? Lets Check Your BMI ")
 weight = None
 height = None
 
@@ -36,14 +38,14 @@ print(f"Your BMI: {round(bmi,2)}")
 if bmi <= 16:
     print("You are Severely UnderWeight")
 elif bmi>16.1 and bmi<=18.5:
-    print("Your are UnderWeight")
+    print("You are UnderWeight")
 elif bmi>18.6 and  bmi<=24.9:
-    print("Your are Healthy")
+    print("You are Healthy")
 elif bmi>25 and  bmi<=29.9:
-    print("Your are OverWeight")
+    print("You are OverWeight")
 elif bmi>30 and  bmi<=39.9:
-    print("Your are Obese")
+    print("You are Obese")
 else:
-    print("Your are Morbidly Obese")
+    print("You are Morbidly Obese")
     
     
